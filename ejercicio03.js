@@ -1,7 +1,8 @@
-let num = (18 % 2);
+let num = 13;
+let residuo = num % 2;
 
-if(num === 0) {
+if(residuo === 0) {
     console.log("Es par");
 } else {
-    console.log("Es impar")
+    console.log("Es impar");
 }
